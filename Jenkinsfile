@@ -12,6 +12,7 @@ parameters {
             name: 'RUN_STAGE',
             choices: [
                 'ALL',
+		'GitCheckout',
                 'COMPILE',
                 'SONAR',
                 'BUILD',
