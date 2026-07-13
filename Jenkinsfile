@@ -5,8 +5,7 @@ pipeline {
     tools{
         jdk 'jdk21'
         maven 'maven3'
-    }
-    
+    }    
 parameters {
         choice(
             name: 'RUN_STAGE',
